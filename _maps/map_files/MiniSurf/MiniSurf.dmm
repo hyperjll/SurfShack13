@@ -11684,7 +11684,6 @@
 	},
 /obj/machinery/keycard_auth/wall_mounted/directional/south,
 /obj/structure/closet/secure_closet/research_director,
-/obj/item/clothing/suit/armor/reactive,
 /obj/item/aicard,
 /obj/structure/window/reinforced/spawner/directional/east,
 /turf/open/floor/iron/dark,
