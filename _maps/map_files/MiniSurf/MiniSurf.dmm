@@ -248,6 +248,11 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/open/floor/iron,
 /area/station/security/brig)
+"anf" = (
+/obj/structure/lattice/catwalk,
+/obj/structure/cable,
+/turf/open/space,
+/area/station/solars/port/fore)
 "anu" = (
 /obj/machinery/door/airlock/public/glass{
 	name = "Abandoned Postal Storage"
@@ -5309,6 +5314,11 @@
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
 /turf/open/floor/iron/cafeteria,
 /area/station/service/kitchen)
+"dSG" = (
+/obj/structure/lattice/catwalk,
+/obj/structure/cable,
+/turf/open/space/basic,
+/area/station/solars/port/fore)
 "dSI" = (
 /obj/structure/table/wood,
 /obj/item/storage/fancy/cigarettes,
@@ -5627,6 +5637,10 @@
 	dir = 1
 	},
 /area/station/engineering/storage/tech)
+"ecC" = (
+/obj/structure/lattice/catwalk,
+/turf/open/space,
+/area/station/solars/port/fore)
 "ecG" = (
 /obj/structure/sign/poster/official/random/directional/west,
 /obj/effect/turf_decal/tile/neutral/half/contrasted{
@@ -13211,6 +13225,10 @@
 /obj/machinery/light/directional/east,
 /turf/open/floor/iron/white,
 /area/station/science/research)
+"jtq" = (
+/obj/structure/cable,
+/turf/open/floor/iron/solarpanel/airless,
+/area/station/solars/port/fore)
 "jtB" = (
 /obj/effect/landmark/start/prisoner,
 /obj/machinery/light/directional/east{
@@ -16013,6 +16031,10 @@
 	},
 /turf/open/floor/plating,
 /area/station/maintenance/department/science/xenobiology)
+"ltl" = (
+/obj/machinery/power/tracker,
+/turf/open/floor/iron/solarpanel/airless,
+/area/station/solars/port/fore)
 "ltr" = (
 /obj/structure/cable,
 /obj/machinery/atmospherics/pipe/smart/manifold4w/scrubbers/hidden/layer2,
@@ -18327,6 +18349,15 @@
 	},
 /turf/open/floor/iron,
 /area/station/cargo/miningoffice)
+"mUa" = (
+/obj/machinery/power/solar{
+	id = "forestarboard";
+	name = "Fore-Starboard Solar Array"
+	},
+/obj/structure/cable,
+/obj/structure/cable,
+/turf/open/floor/iron/solarpanel/airless,
+/area/station/solars/port/fore)
 "mUg" = (
 /obj/machinery/status_display/evac/directional/north,
 /obj/machinery/porta_turret/ai,
@@ -19717,7 +19748,10 @@
 "nND" = (
 /obj/effect/turf_decal/bot,
 /obj/effect/decal/cleanable/cobweb/cobweb2,
-/obj/machinery/mineral/stacking_machine,
+/obj/machinery/mineral/stacking_machine{
+	input_dir = 8;
+	output_dir = 2
+	},
 /turf/open/floor/plating,
 /area/station/maintenance/port/central)
 "nNN" = (
@@ -25113,8 +25147,7 @@
 /area/station/hallway/primary/aft)
 "rpr" = (
 /obj/structure/closet/crate/solarpanel_small,
-/obj/structure/lattice,
-/turf/open/space/basic,
+/turf/open/floor/plating/airless,
 /area/station/maintenance/solars/port/fore)
 "rpE" = (
 /obj/machinery/atmospherics/pipe/smart/manifold4w/supply/hidden/layer4,
@@ -28972,8 +29005,9 @@
 /area/station/hallway/primary/central)
 "ueH" = (
 /obj/effect/mapping_helpers/broken_floor,
-/obj/effect/decal/cleanable/glass,
 /obj/effect/mapping_helpers/burnt_floor,
+/obj/effect/spawner/structure/window/reinforced,
+/obj/effect/mapping_helpers/damaged_window,
 /turf/open/floor/plating/airless,
 /area/station/maintenance/solars/port/fore)
 "ufg" = (
@@ -32571,6 +32605,12 @@
 	},
 /turf/open/floor/iron,
 /area/station/engineering/atmos)
+"wqO" = (
+/obj/structure/lattice,
+/obj/structure/lattice,
+/obj/effect/spawner/random/structure/grille,
+/turf/open/space,
+/area/space/nearstation)
 "wrd" = (
 /obj/docking_port/stationary/random{
 	name = "lavaland";
@@ -32677,6 +32717,14 @@
 "wuD" = (
 /turf/open/space/basic,
 /area/space)
+"wuQ" = (
+/obj/machinery/power/solar{
+	id = "forestarboard";
+	name = "Fore-Starboard Solar Array"
+	},
+/obj/structure/cable,
+/turf/open/floor/iron/solarpanel/airless,
+/area/station/solars/port/fore)
 "wvl" = (
 /obj/effect/spawner/structure/window/reinforced,
 /obj/machinery/atmospherics/pipe/layer_manifold/scrubbers/hidden{
@@ -78632,7 +78680,7 @@ pdc
 pdc
 pdc
 pdc
-pdc
+tvW
 pdc
 pdc
 pdc
@@ -78891,19 +78939,19 @@ pdc
 pdc
 pdc
 pdc
+mGY
+mGY
+mGY
+mGY
+mGY
+pdc
+mGY
+pdc
+mGY
 pdc
 pdc
 pdc
-pdc
-pdc
-pdc
-pdc
-pdc
-pdc
-pdc
-pdc
-pdc
-pdc
+tvW
 pdc
 dOb
 pdc
@@ -79157,7 +79205,7 @@ pdc
 pdc
 pdc
 pdc
-pdc
+mGY
 pdc
 pdc
 pdc
@@ -79404,6 +79452,7 @@ pdc
 pdc
 pdc
 pdc
+mGY
 pdc
 pdc
 pdc
@@ -79414,8 +79463,7 @@ pdc
 pdc
 pdc
 pdc
-pdc
-pdc
+tvW
 pdc
 pdc
 pdc
@@ -79660,6 +79708,7 @@ pdc
 pdc
 pdc
 pdc
+mGY
 pdc
 pdc
 pdc
@@ -79671,11 +79720,10 @@ pdc
 pdc
 pdc
 pdc
+tvW
 pdc
 pdc
-pdc
-pdc
-pdc
+tvW
 pdc
 pdc
 pdc
@@ -79917,17 +79965,17 @@ pdc
 pdc
 pdc
 pdc
+mGY
 pdc
 pdc
 pdc
+mUa
+ecC
+jtq
 pdc
-pdc
-pdc
-pdc
-pdc
-pdc
-pdc
-pdc
+wuQ
+ecC
+jtq
 pdc
 pdc
 pdc
@@ -80172,23 +80220,23 @@ pdc
 pdc
 pdc
 pdc
+tvW
+pdc
+mGY
 pdc
 pdc
 pdc
+wuQ
+ecC
+wuQ
+pdc
+wuQ
+ecC
+jtq
 pdc
 pdc
 pdc
-pdc
-pdc
-pdc
-pdc
-pdc
-pdc
-pdc
-pdc
-pdc
-pdc
-pdc
+tvW
 pdc
 pdc
 apX
@@ -80432,16 +80480,16 @@ pdc
 pdc
 pdc
 pdc
+mGY
 pdc
 pdc
+wuQ
+ecC
+jtq
 pdc
-pdc
-pdc
-pdc
-pdc
-pdc
-pdc
-pdc
+wuQ
+ecC
+wuQ
 pdc
 pdc
 pdc
@@ -80451,8 +80499,8 @@ pdc
 pdc
 wuD
 apX
-apX
-wuD
+aCy
+aCy
 aCy
 pbe
 pbe
@@ -80688,17 +80736,17 @@ pdc
 pdc
 pdc
 pdc
+mGY
 pdc
 pdc
 pdc
+jtq
+ecC
+jtq
 pdc
-pdc
-pdc
-pdc
-pdc
-pdc
-pdc
-pdc
+jtq
+ecC
+wuQ
 pdc
 apX
 pdc
@@ -80945,17 +80993,17 @@ pdc
 pdc
 pdc
 pdc
+mGY
 pdc
 pdc
 pdc
+wuQ
+ecC
+jtq
 pdc
-pdc
-pdc
-pdc
-pdc
-pdc
-pdc
-pdc
+jtq
+ecC
+jtq
 pdc
 pdc
 pdc
@@ -81201,18 +81249,18 @@ pdc
 pdc
 pdc
 pdc
+mGY
 pdc
 pdc
 pdc
 pdc
+wuD
+ecC
+wuD
 pdc
-pdc
-pdc
-pdc
-pdc
-pdc
-pdc
-pdc
+wuD
+ecC
+wuD
 pdc
 pdc
 pdc
@@ -81459,24 +81507,24 @@ pdc
 pdc
 pdc
 pdc
+wqO
 pdc
-pdc
-pdc
-pdc
-pdc
-pdc
-pdc
-pdc
-pdc
-pdc
-pdc
-pdc
-pdc
-pdc
-pdc
-apX
-fyD
-fyD
+ltl
+anf
+anf
+anf
+anf
+anf
+anf
+anf
+anf
+anf
+anf
+anf
+anf
+dSG
+dSG
+dSG
 kEn
 oSI
 wqz
@@ -81713,20 +81761,20 @@ pdc
 pdc
 pdc
 pdc
+tvW
 pdc
 pdc
 pdc
 pdc
 pdc
 pdc
+wuD
+ecC
+wuD
 pdc
-pdc
-pdc
-pdc
-pdc
-pdc
-pdc
-pdc
+wuD
+ecC
+wuD
 pdc
 pdc
 pdc
@@ -81973,17 +82021,17 @@ pdc
 pdc
 pdc
 pdc
+mGY
 pdc
 pdc
 pdc
+wuQ
+ecC
+wuQ
 pdc
-pdc
-pdc
-pdc
-pdc
-pdc
-pdc
-pdc
+jtq
+ecC
+wuQ
 pdc
 pdc
 pdc
@@ -82230,24 +82278,24 @@ pdc
 pdc
 pdc
 pdc
+mGY
 pdc
+tvW
 pdc
+jtq
+ecC
+jtq
 pdc
-pdc
-pdc
-pdc
-pdc
-pdc
-pdc
-pdc
-pdc
+wuQ
+ecC
+jtq
 pdc
 pdc
 pdc
 pdc
 pdc
 wuD
-wuD
+apX
 wuD
 wuD
 apX
@@ -82488,16 +82536,16 @@ pdc
 pdc
 pdc
 pdc
+mGY
 pdc
 pdc
+jtq
+ecC
+jtq
 pdc
-pdc
-pdc
-pdc
-pdc
-pdc
-pdc
-pdc
+jtq
+ecC
+jtq
 pdc
 pdc
 pdc
@@ -82745,19 +82793,19 @@ pdc
 pdc
 pdc
 pdc
+mGY
 pdc
 pdc
+wuQ
+ecC
+wuQ
+pdc
+wuQ
+ecC
+jtq
 pdc
 pdc
-pdc
-pdc
-pdc
-pdc
-pdc
-pdc
-pdc
-pdc
-pdc
+tvW
 pdc
 pdc
 wuD
@@ -83000,24 +83048,24 @@ pdc
 pdc
 pdc
 pdc
+tvW
 pdc
 pdc
 pdc
 pdc
+wuQ
+ecC
+jtq
 pdc
-pdc
-pdc
-pdc
-pdc
-pdc
-pdc
-pdc
+jtq
+ecC
+jtq
 apX
 pdc
 pdc
 pdc
 pdc
-wuD
+apX
 wuD
 wuD
 wuD
@@ -83260,7 +83308,7 @@ pdc
 pdc
 pdc
 pdc
-pdc
+mGY
 pdc
 pdc
 pdc
@@ -83521,11 +83569,11 @@ pdc
 pdc
 pdc
 pdc
+mGY
 pdc
+mGY
 pdc
-pdc
-pdc
-pdc
+mGY
 pdc
 pdc
 pdc
@@ -83774,17 +83822,18 @@ pdc
 pdc
 pdc
 pdc
+mGY
+mGY
+mGY
 pdc
 pdc
 pdc
 pdc
+mGY
 pdc
 pdc
 pdc
 apX
-pdc
-pdc
-pdc
 pdc
 pdc
 pdc
@@ -84029,6 +84078,7 @@ pdc
 pdc
 pdc
 pdc
+tvW
 pdc
 pdc
 pdc
@@ -84040,10 +84090,9 @@ pdc
 pdc
 pdc
 pdc
-pdc
-pdc
-pdc
-pdc
+mGY
+wqO
+mGY
 pdc
 pdc
 pdc
@@ -84302,7 +84351,7 @@ pdc
 pdc
 pdc
 pdc
-pdc
+tvW
 pdc
 pdc
 pdc
@@ -84550,7 +84599,7 @@ pdc
 pdc
 pdc
 pdc
-pdc
+mGY
 pdc
 pdc
 pdc
